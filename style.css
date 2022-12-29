@@ -1,0 +1,9 @@
+.detailsbox{
+    background-color:rgb(192, 222, 255);
+    width: fit-content;
+}
+.outer{
+    background-color: rgb(169, 233, 139);
+    width: fit-content;
+    height: fit-content;
+}
