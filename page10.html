@@ -10,23 +10,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="outer container d-flex flex-column justify-content-center align-items-center">
         <div class="title">
         <h1 class="text-center my-3" > WEBCODE TASK 1</h1>
         <h2 class="text-center my-4"> To Display the Details of Books using Ice and Fire API</h2>
          </div>
+         <div class="spinner-border" style="width: 5rem; height: 5rem;" role="status" id="loading">
+        </div>
         <div class=" d-flex justify-content-start align-items-center flex-row flex-wrap " id="detailscontainer">    
         </div>
         <div class="mt-5  border-5 rounded">
         <nav aria-label="...">
             <ul class="pagination">
               <li class="page-item ">
-                <a class="page-link" href="./page9.html" target="_blank" tabindex="-1" >Previous</a>
+                <a class="page-link" href="./page9.html?id=9" target="_blank" tabindex="-1" >Previous</a>
               </li>
-              <li class="page-item" ><a class="page-link" href="./page6.html" target="_blank">6</a></li>
-              <li class="page-item"><a class="page-link" href="./page7.html" target="_blank">7</a></li>
-              <li class="page-item"><a class="page-link" href="./page8.html" target="_blank">8</a></li>
-              <li class="page-item"><a class="page-link" href="./page9.html" target="_blank">9</a></li>
+              <li class="page-item" ><a class="page-link" href="./page6.html?id=6" target="_blank">6</a></li>
+              <li class="page-item"><a class="page-link" href="./page7.html?id=7" target="_blank">7</a></li>
+              <li class="page-item"><a class="page-link" href="./page8.html?id=8" target="_blank">8</a></li>
+              <li class="page-item"><a class="page-link" href="./page9.html?id=9" target="_blank">9</a></li>
               <li class="page-item active" aria-current="page"><a class="page-link" href="#">10</a></li>
               <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Next</a></li>
             
@@ -35,6 +37,6 @@
         </div>
 
     </div>
-    <script src="./script10.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
